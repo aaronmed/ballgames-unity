@@ -56,7 +56,7 @@ public class BallController : MonoBehaviour
         {
             WinText.gameObject.SetActive(true);
             yield return new WaitForSeconds (2.0f);
-            SceneManager.LoadScene(SceneManager.GetSceneByName("Scene2").buildIndex);
+            SceneManager.LoadScene("Scene1");
         }
     }
 
